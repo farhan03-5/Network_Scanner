@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+1. **Title/Header**: Clear and concise.
+2. **Features**: Highlights the project's value.
+3. **Installation**: Step-by-step setup guide.
+4. **Usage**: Examples with code blocks for easy copy-paste.
+5. **Code Structure**: Helps others navigate the repo.
+6. **How It Works**: Briefly explains the technical approach.
+7. **Ethical Note**: Critical for cybersecurity tools.
+8. **Contributing/License**: Encourages collaboration.
+
+### Optional Additions:
+- Add a `demo.gif` or screenshot in the `samples/` folder.
+- Include a `requirements.txt` file for dependencies:
+  ```text
+  scapy==2.4.5
+  python-nmap==0.7.1
