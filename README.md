@@ -12,3 +12,11 @@ A lightweight Python tool to scan local networks and discover active devices by 
 2. **Install Dependencies**:
    ```bash
    pip install scapy
+
+## How It Works
+ARP Packets: The script sends ARP requests to all IPs in the specified subnet.
+Response Analysis: Captures responses to determine active devices.
+Output: Displays or saves IP/MAC pairs in a user-friendly format.
+## Ethical Note
+Use this tool only on networks you own or have explicit permission to scan.
+Unauthorized scanning may violate privacy laws (e.g., CFAA, GDPR).
